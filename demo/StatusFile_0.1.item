@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_ml2jAEmEEeqghI4OdOwCmg" name="StatusFile" dataPackage="_ml2jAUmEEeqghI4OdOwCmg" Server="Localhost 127.0.0.1" FilePath="D:/Priyanka/OSS/Status file/MO MM France Project Status.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Index" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Index:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ml2jAUmEEeqghI4OdOwCmg" name="default" dataManager="_ml2jAEmEEeqghI4OdOwCmg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ml2jAkmEEeqghI4OdOwCmg" id="_CeLKMEmEEeqghI4OdOwCmg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ml2jA0mEEeqghI4OdOwCmg" label="Column0" length="52" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ml2jBEmEEeqghI4OdOwCmg" label="Column1" length="61" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
